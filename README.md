@@ -7,8 +7,10 @@ Welcome to ChatRoom, a platform designed for private conversations with your fri
 
 - Choose a unique username.
 - Enter a Room ID for your private conversation.
+  
 **2. Share Room ID:** 
 - Share the Room ID with your friend.
+  
 **3. Start Chatting:**
 - Once your friend joins with the Room ID, your secure conversation begins.
 
