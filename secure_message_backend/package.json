@@ -1,0 +1,27 @@
+{
+  "name": "secure_message_backend",
+  "version": "1.0.0",
+  "description": "Fastify is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture. It is inspired by Hapi and Express and as far as we know, it is one of the fastest web frameworks in town, With TypeScript that adds static typing with optional type annotations to JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": " npm i && rimraf ./build && tsc",
+    "dev": "nodemon",
+    "start": " node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishal Talukar",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.2",
+    "fastify": "^4.24.3",
+    "fastify-socket.io": "^5.0.0",
+    "socket.io": "^4.7.2",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1"
+  }
+}
